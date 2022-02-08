@@ -1,0 +1,44 @@
+HELP.md
+*.class
+*.jar
+**/target
+*.log
+lock
+.lock
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+src/main/webapp/WEB-INF/classes
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### word ###
+*/~*.doc
+*/~*.tmp
+
+# Update artifact versions
+.update_artifact_versions
