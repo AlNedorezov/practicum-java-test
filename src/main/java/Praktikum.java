@@ -6,6 +6,7 @@ public class Praktikum {
         String data;
         int count;
 //test
+        //.
 
         public OfficeToolData(String data, int count) {
             this.data = data;
