@@ -1,5 +1,6 @@
 import java.util.HashMap;
 
+// test remote
 public class Praktikum {
     static class OfficeToolData {
         String data;
