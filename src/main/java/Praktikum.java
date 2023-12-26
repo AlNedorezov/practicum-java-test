@@ -4,6 +4,7 @@ public class Praktikum {
     static class OfficeToolData {
         String data;
         int count;
+        static long EXAMPLE_EXCEPTION_CODE = 1L;
 
         public OfficeToolData(String data, int count) {
             this.data = data;
@@ -15,7 +16,10 @@ public class Praktikum {
         }
 
         public String throwException() {
-            throw new RuntimeException("exception description");
+            throw new PraktikumException(
+                    String.format("%d Unexpected office tool data behaviour occurred", EXAMPLE_EXCEPTION_CODE),
+                    EXAMPLE_EXCEPTION_CODE
+            );
         }
 
         public String returnStringStuff(String stuff) {
