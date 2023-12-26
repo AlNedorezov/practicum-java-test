@@ -14,10 +14,6 @@ public class Praktikum {
             return "stuff";
         }
 
-        public String throwException() {
-            throw new RuntimeException("exception description");
-        }
-
         public String returnStringStuff(String stuff) {
             int i = Integer.parseInt(stuff);
             return stuff;
